@@ -28,7 +28,7 @@ Alpine Linux (alpine-4.2.2).
     # Telegram.
     BOT_TOKEN=""
     USER=""
-    # Envia a foto
+    # Envia a foto.
     curl -k -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto" -F chat_id="${USER}" -F photo="@${png}" > /dev/null
     # deleta a foto.
     rm $png
